@@ -130,9 +130,9 @@ The agent learns by trial-and-error, receiving rewards for lane-centre driving a
 
 **file** : `FINAL_RNNlane.ipynb`
 
-**file name** : `carla_rl_training.py`
+**file name** : `carla_rl_training.py`in FINAL_RNNlane.ipynb file
 
-**model path** : `carla_dqn_smooth_final.pth`, `dqn_arrow_best.pth`
+**model path** : `dqn_smooth/carla_dqn_smooth_final.pth`, `dqn_arrow_checkpoints_best_git/carla_dqn_arrow_best.pth`
 
 
 ## DQN Configuration & Reward Design
@@ -220,7 +220,7 @@ PPO with a Gaussian policy to produce continuous control actions, resulting in s
 
 **file name** : `PPO_training in (FINAL_RNNlane.ipynb) `
 
-**model path** : `ppo_lane_keeping_best.pth`(ppo_contd_git)
+**model path** : `PPO_best_git/ppo_lane_keeping_best.pth`
 
 ## PPO (Proximal Policy Optimization)
 
