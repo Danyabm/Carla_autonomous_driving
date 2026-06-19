@@ -290,10 +290,10 @@ steer_penalty  = -0.5 * |steering|
 | Metric               | CNN + PID              | DQN                     | PPO                          |
 |---------------------|-----------------------|-------------------------|------------------------------|
 | Cruise speed        | 25 km/h            | ~5–7 km/h         | 15-18 km/h              |
-| Typical lane offset | 0.05–0.31 m           | ~ 0.2–0.4 m        | 0.049–0.222 m                |
-| Peak drift          | ±0.51–0.77 m          | —                       | -          |
+| Typical lane offset | 0.05–0.31 m           | ~ 0.2–0.4 m        | ~ 0.04–0.22 m                |
+| Peak drift          | ±0.51–0.77 m          | -                       | -          |
 | Max lane offset     | ~0.87 m               | ~0.5 m                        | 0.151 m            |
-| Success rate        | Qualitative ✓         | —                       | 100% (formal)                |
+| Success rate        | Qualitative          | —                       | 100% (formal)                |
 | Distance covered    | ~200 m      | ~ 300 m                      | 1050 m          |
 | Traffic light aware |  No       | No                      | Yes                           |
 | Arrow following     | No                    | Yes (attempts)     | yes                           |
