@@ -321,10 +321,12 @@ With Bash
 This work is the empirical foundation of my PhD research application in autonomous driving, broader robotics and deep RL. The planned research extensions are:
 
 - **Safe RL** — Constrained Policy Optimisation (CPO) for collision avoidance as a hard constraint
-- **Sim-to-real transfer** — domain randomisation across weather, lighting, and road surface in CARLA
+- **World Models and Predictive Planning** – Integrate learned environment models to predict future vehicle and pedestrian behaviour for safer decision making.
+- **Vision-Language Driving Agents** – Extend the perception module with vision-language models to enable natural-language instruction following (e.g., "park behind the truck").
+- **Multi-Agent Driving Scenarios** – Study interactions with pedestrians and other vehicles using multi-agent reinforcement learning and social navigation techniques.
+- **Sim-to-real transfer** — domain randomisation across weather, lighting, and road surface in CARLA to improve policy robustness
 - **Explainability** — attention-based saliency maps to identify which scene regions drive control decisions
-- **Hierarchical control** — combining the DQN planner (what to do) with the PPO executor (how to do it smoothly)
-- **Broader robotics** — applying the same RL + imitation learning pipeline to robotic manipulation tasks
+- **Robotic Manipulation Transfer** – Adapt the perception-learning-control pipeline to robotic arm manipulation tasks, exploring shared representations across driving and manipulation domains.
 
 
 
