@@ -318,7 +318,8 @@ With Bash
 
 
 ## Future Work
-This work is the empirical foundation of my PhD research application in autonomous driving, broader robotics and deep RL. The planned research extensions are:
+
+This project serves as a foundation for my future PhD research in autonomous driving, robot learning, and embodied AI. Potential extensions of this research might include:
 
 - **Safe RL** — Constrained Policy Optimisation (CPO) for collision avoidance as a hard constraint
 - **World Models and Predictive Planning** – Integrate learned environment models to predict future vehicle and pedestrian behaviour for safer decision making.
